@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crystal Haven</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/sty">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        color: #333;
+      }
+      /* Home Page Style*/
+      nav {
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5em 1em;
+      }
+
+      nav .logo-section {
+        display: flex;
+        align-items: center;
+      }
+
+      nav .logo-section img {
+        height: 40px;
+        margin-right: 10px;
+      }
+
+      nav .logo-section .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+
+      nav .nav-links {
+        display: flex;
+        gap: 1em;
+      }
+
+      nav .nav-links a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5em;
+        transition: background-color 0.3s;
+      }
+
+      nav .nav-links a:hover {
+        background-color: #575757;
+        border-radius: 5px;
+      }
+
+      nav .search-bar {
+        display: flex;
+        align-items: center;
+      }
+
+      nav .search-bar input {
+        padding: 0.4em;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+      }
+
+      nav .search-bar button {
+        padding: 0.4em;
+        border: none;
+        border-radius: 5px;
+        background-color: #575757;
+        color: white;
+        cursor: pointer;
+        margin-left: 0.5em;
+        transition: background-color 0.3s;
+      }
+
+      nav .search-bar button:hover {
+        background-color: #444;
+      }
+
+      main {
+        padding: 2em;
+        text-align: center;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo-section">
+        <img src="image/logo.png" alt="Logo" />
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+        <button>Search</button>
+      </div>
+    </nav>
+
+    <main>
+      <h1>Welcome to My Website</h1>
+      <p>
+        This is the home page. Explore the website using the navigation links
+        above!
+      </p>
+    </main>
+
+    <footer>&copy; 2024 My Website. All rights reserved.</footer>
+  </body>
+</html>
